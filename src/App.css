@@ -1,0 +1,88 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+ .App {
+  text-align: center;
+}
+html {
+  background-color: #f7f7f7;
+  font-family: "Oswald", sans-serif;
+}
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  margin: 0;
+}
+header .logo {
+  color: rgb(246, 241, 241);
+  font-weight: bolder;
+  font-size: 18px;
+  background-color: rgb(76, 19, 67);
+  border-radius: 0 8px;
+  padding: 6px;
+  font-family: cursive;
+}
+/* header.nightMode{
+  background-color: burlywood;
+}
+header.dayMode{
+  background-color: orange;
+} */
+.hero {
+  height: 650px;
+  background-size: cover;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: start;
+  background-image: url('https://images.unsplash.com/photo-1559348349-86f1f65817fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y3ljbGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60');
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header .nav {
+  display: flex;
+}
+header .nav a {
+  margin: 0 5px;
+  color: black;
+}
+/* Add space between <li> elements containing icons */
+.nav li a {
+  margin-right: 30px; /* Adjust the margin as needed */
+}
+
+ul {
+
+  list-style: none;
+  padding: 0 50px;
+}
+a {
+  text-decoration: none;
+}
+footer {
+  color: white;
+  background-color: navy;
+  padding: 20px;
+}
+.card{
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.card img{
+  width: 320px;
+  height: 250px;
+border-radius: 15px;
+}
+.card-container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between; /* or any other desired spacing */
+  align-items: flex-start; /* Optional: Align cards to the top of the row */
+  flex-wrap: wrap; /* Allow cards to wrap to the next row if needed */
+  margin: 0 auto; /* Optional: Center the row horizontally */
+  max-width: 1200px; /* Optional: Set a maximum width for the row */
+}
