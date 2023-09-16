@@ -15,7 +15,7 @@ function MyApp() {
         imgSrc="https://images.unsplash.com/photo-1623216216626-f8bfd191552d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
         product="Radio"
         price="9000"
-        offer="7994"
+        offer="7094"
       />
       <Card
         imgSrc="https://images.unsplash.com/photo-1523476324532-18841ae4b297?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
